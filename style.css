@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section.welcome {
+    padding: 1.2rem;
+}
+h1.heading-primary {
+    color: #4a4a4a;
+    font-weight: bold;
+}
+.welcome__container-news {
+    display: flex;
+}
+.welcome__new__new-contnet {
+    display: none;
+}
+.welcome__new.new--other{
+    display: flex;
+    flex-flow: wrap;
+}
+.welcome__new.new--other__new {
+    flex-basis: 20%;
+    width: 50%;
+}
