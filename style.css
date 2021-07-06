@@ -33,6 +33,7 @@ h1.heading-primary::after {
 }
 .welcome__new.new--other__new {
     width: 49%;
+    position: relative;
 }
 .welcome__new__image img {
     width: 100%;
