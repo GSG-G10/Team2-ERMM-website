@@ -87,3 +87,22 @@ p.welcome__new__summary{
 a.overlay:hover {
     opacity: 0.6;
 }
+a.welcome__new__tag{
+    color: #d3d3d3;
+    text-transform: uppercase;
+    position: relative;
+    display: block;
+    padding-top: 10px;
+}
+a.welcome__new__tag::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    color: #080;
+    /* width: 17rem; */
+    height: .99em;
+    top: 11px;
+    left: -6px;
+    /* background: aliceblue; */
+    border-left: 3px solid #080;
+}
