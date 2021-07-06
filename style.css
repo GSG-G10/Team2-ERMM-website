@@ -52,3 +52,28 @@ h3:hover{
     position: relative;
     text-indent: 18px;
 }
+.news-country:hover, .sport-type:hover{
+    text-decoration: underline;
+}
+.red-line{
+    display: inline-block;
+    position: absolute;
+    left:5px;
+    top: 5px;
+    width: 2px;
+    height: .7em;
+    background-color: red;
+}
+.yellow-line{
+    display: inline-block;
+    position: absolute;
+    left:5px;
+    top: 5px;
+    width: 2px;
+    height: .7em;
+    background-color:yellow;
+}
+a{
+    text-decoration: none;
+}
+/* Styling news & sport section end */
