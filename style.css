@@ -31,14 +31,6 @@ h1.heading-primary::after {
     width: 49.3%;
     position: relative;
 }
-.welcome__new__new-contnet {
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    padding: 1.1rem;
-}
-
 .welcome__new.new--other__new {
     width: 49%;
 }
@@ -46,6 +38,7 @@ h1.heading-primary::after {
     width: 100%;
     object-fit: cover;
     height: min-content;
+    display: block;
 }
 .welcome__new.new--other {
     display: flex;
@@ -64,4 +57,26 @@ p.welcome__new__summary{
     color: #d3d3d3;
     font-weight: 500;
     margin: 12px 0;
+}
+.welcome__new__new-contnet {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 1.1rem;
+    z-index: 2;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    /* text-indent: 200%; */
+    white-space: nowrap;
+    visibility: visible;
+    /* color: #000; */
+    background: rgba(0,0,0,.5);
+    z-index: 0;
 }
