@@ -9,6 +9,7 @@ section.welcome {
 h1.heading-primary {
     color: #4a4a4a;
     font-weight: bold;
+    padding-bottom: .8rem;
 }
 .welcome__container-news {
     display: flex;
