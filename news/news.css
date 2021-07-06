@@ -81,7 +81,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100px;
-    height: 35px;
+    height: 35px !important;
     position: relative;
     top: 6px;
     text-align: center;
@@ -134,20 +134,143 @@ body {
     transform: rotate(45deg);
 }
 
-.news {
+.news-container {
     display: flex;
     width: 100%;
     height: fit-content;
     padding: 10px;
     background-color: #B80000;
-    justify-content: space-around;
+    justify-content: center;
+    border: solid white;
+    border-width: 0px 1px 1px 0px;
 }
 
-.news span {
-    width: 66%;
+.news {
+    width: 90%;
+    display: flex;
 }
 
 .news svg {
     fill: white;
     width: 200px;
+}
+
+.nav2-con {
+    width: 100%;
+    display: flex;
+    background-color: #B80000;
+    justify-content: center;
+}
+
+.nav2 {
+    display: flex;
+    width: 89%;
+    align-items: center;
+    align-content: center;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+
+.nav2 li {
+    list-style: none;
+    width: 100px;
+    border: white solid;
+    border-width: 0px 1px 1px 1px;
+    height: 35px;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+    background-color: #B80000;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    height: 20px;
+}
+
+.nav2 span:not(#sign) {
+    width: 102px;
+    height: 5px;
+    background-color: transparent;
+}
+
+.nav2 li:hover span:not(#sign) {
+    width: 102px;
+    height: 5px;
+    background-color: white;
+}
+
+.nav2 .dropdown-items a {
+    background-color: white;
+    color: #B80000;
+}
+
+.nav2 .dropdown-items a:hover {
+    background-color: #B80000;
+    color: white;
+}
+
+.nav2 .dropbtn {
+    color: white;
+}
+
+.nav2 .down-arrow {
+    border-color: white;
+}
+
+.nav3-con {
+    width: 100%;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+}
+
+.nav3 {
+    display: flex;
+    width: 89%;
+    align-items: center;
+    align-content: center;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+
+.nav3 li {
+    list-style: none;
+    width: 50px;
+    border: gray solid;
+    border-width: 0px 1px 0px 0px;
+    border-top-width: 5px;
+    border-top-color: white;
+    height: 35px;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.nav3 a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    height: 20px;
+}
+
+.nav3 span:not(#sign) {
+    width: 52px;
+    height: 5px;
+    background-color: transparent;
+}
+
+.nav3 li:hover span:not(#sign) {
+    width: 52px;
+    height: 5px;
+    background-color: #B80000;
 }
