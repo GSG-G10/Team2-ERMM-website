@@ -46,7 +46,7 @@ h1.heading-primary::after {
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
-    font-size: 12px;
+    font-size: 11px;
 }
 .overlay{
 
@@ -54,7 +54,7 @@ h1.heading-primary::after {
 h3 a {
     color: #fff;
     font-size: 1.7em;
-    font-weight: 500;
+    font-weight: 400;
 }
 p.welcome__new__summary{
     color: #d3d3d3;
@@ -80,6 +80,10 @@ p.welcome__new__summary{
     white-space: nowrap;
     visibility: visible;
     /* color: #000; */
-    background: rgba(0,0,0,.5);
+    background-image: linear-gradient(transparent,rgba(0,0,0,0.8));
     z-index: 0;
+    transition: all .3s;
+}
+a.overlay:hover {
+    opacity: 0.6;
 }
