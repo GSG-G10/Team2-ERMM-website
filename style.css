@@ -49,7 +49,7 @@ h1.heading-primary::after {
     font-size: 11px;
     align-content: space-between;
 }
-h3 a {
+h3.new-contnet__title a {
     color: #fff;
     font-size: 1.7em;
     font-weight: 400;
