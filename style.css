@@ -22,3 +22,33 @@
     color: #8c8c8c;
     cursor: pointer;
 }
+.weather-icons-section{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+}
+.weather-container{
+    width: 15%;
+    display: flex;
+}
+.weather-icon{
+    margin-right: 15px;
+}
+.weather-details p:first-child{
+    font-size: .6rem;
+}
+.weather-details p:nth-child(2){
+    font-size: .8rem;
+    font-weight: bold;
+}
+.weather-details p:nth-child(3){
+    font-size: .5rem;
+    color: #4a4a4a;
+}
+.weather-details p{
+    line-height: 12px;
+}
+.fa-cloud, .fa-cloud-sun-rain, .fa-cloud-sun{
+    font-size: 25px;
+}
+/* Styling weather section end */
