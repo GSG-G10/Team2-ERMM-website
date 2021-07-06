@@ -34,6 +34,7 @@ h1.heading-primary::after {
 .welcome__new.new--other__new {
     width: 49%;
     position: relative;
+    height: 49%;
 }
 .welcome__new__image img {
     width: 100%;
@@ -45,6 +46,7 @@ h1.heading-primary::after {
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
+    font-size: 12px;
 }
 .overlay{
 
