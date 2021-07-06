@@ -47,9 +47,7 @@ h1.heading-primary::after {
     flex-flow: wrap;
     justify-content: space-between;
     font-size: 11px;
-}
-.overlay{
-
+    align-content: space-between;
 }
 h3 a {
     color: #fff;
@@ -93,6 +91,7 @@ a.welcome__new__tag{
     position: relative;
     display: block;
     padding-top: 10px;
+    padding-left: 5px;
 }
 a.welcome__new__tag::before {
     content: " ";
@@ -102,7 +101,7 @@ a.welcome__new__tag::before {
     /* width: 17rem; */
     height: .99em;
     top: 11px;
-    left: -6px;
+    left: -5px;
     /* background: aliceblue; */
     border-left: 3px solid #080;
 }
