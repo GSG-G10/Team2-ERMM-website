@@ -1,33 +1,41 @@
-*{
+/* ===================  reel section ======================= */
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+
 /* video section start */
-.video-section{
+
+.video-section {
     display: flex;
     flex-direction: column;
     background-color: #f6f6f6;
     margin: 30px 0;
 }
-.video-title-section{
+
+.video-title-section {
     width: 98%;
     margin: 20px auto 5px;
     position: relative;
 }
-.video-title{
-    margin-left: 12px;
+
+.video-title {
+    text-indent: 12px;
     color: #4a4a4a;
     font-size: 1.5rem;
 }
-.video-container{
+
+.video-container {
     width: 98%;
     height: 600px;
     margin: 0 auto;
     position: relative;
 }
-.fa-play{
+
+.fa-play {
     position: absolute;
     top: 0;
     left: 0;
@@ -37,13 +45,15 @@
     background-color: #565656;
     cursor: pointer;
 }
-.video-detailes{
+
+.video-detailes {
     position: absolute;
     bottom: 40px;
     color: white;
     line-height: 40px;
 }
-.video-detailes p:first-child{
+
+.video-detailes p:first-child {
     font-size: 2rem;
     color: white;
     font-weight: bold;
@@ -54,21 +64,24 @@
     font-size: 1rem;
     color: white;
 }
-.more-video-section{
+
+.more-video-section {
     display: flex;
     flex-direction: column;
     background-color: #363636;
     width: 98%;
     margin: 0 auto;
 }
-.more-video-titles{
+
+.more-video-titles {
     display: flex;
     width: 100%;
     height: 60px;
     font-size: 1.3rem;
     border-bottom: 2px solid #4a4a4a;
 }
-.more-video-titles p{
+
+.more-video-titles p {
     display: flex;
     align-items: center;
     margin-left: 25px;
@@ -76,67 +89,91 @@
     color: #fff;
     cursor: pointer;
 }
-.more-video-titles p:hover{
+
+.more-video-titles p:hover {
     border-bottom: white 2px solid;
 }
-.more-videos-container{
+
+.more-videos-container {
     display: flex;
     justify-content: space-between;
     padding: 25px;
 }
-.more-video-container{
+
+.more-video-container {
     display: flex;
     width: 30%;
 }
-.more-video{
+
+.more-video {
     width: 100%;
 }
-.more-video-detailes{
+
+.more-video-detailes {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 0 20px;
     cursor: pointer;
 }
-.more-video-detailes p:first-child{
+
+.more-video-detailes p:first-child {
     color: #bbbaba;
     font-size: 1.1rem;
     font-weight: bold;
     line-height: 20px;
 }
-.more-video-detailes p:last-child{
+
+.more-video-detailes p:last-child {
     font-size: .8rem;
     margin: 14px 0 0;
     color: #bbbaba;
     text-indent: 15px;
     position: relative;
 }
-.more-video-detailes p:last-child:hover{
+
+.more-video-detailes p:last-child:hover {
     text-decoration: underline;
 }
-.blue-line{
+
+.blue-line {
     display: inline-block;
     position: absolute;
-    background-color:#47a1d8;
+    background-color: #47a1d8;
     left: 0;
     top: 0.2em;
     width: 2px;
     height: .7em;
 }
+
+
 /* video section end */
 
+.nav1-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+}
+
+
 /* =========== welcome section ==================== */
-a{
+
+a {
     text-decoration: none;
 }
+
 section.welcome {
     padding: 1.2rem;
 }
+
 h1.heading-primary {
     color: #4a4a4a;
     font-weight: bold;
     padding-bottom: .8rem;
 }
+
 h1.heading-primary::after {
     content: "Tuesday, 6 July";
     position: absolute;
@@ -145,25 +182,30 @@ h1.heading-primary::after {
     color: #8c8c8c;
     font-size: .9em;
 }
+
 .welcome__container-news {
     display: flex;
     justify-content: space-between;
 }
+
 .welcome__new {
     width: 49.3%;
     position: relative;
 }
+
 .welcome__new.new--other__new {
     width: 49%;
     position: relative;
     height: 49%;
 }
+
 .welcome__new__image img {
     width: 100%;
     object-fit: cover;
     height: min-content;
     display: block;
 }
+
 .welcome__new.new--other {
     display: flex;
     flex-flow: wrap;
@@ -171,16 +213,19 @@ h1.heading-primary::after {
     font-size: 11px;
     align-content: space-between;
 }
+
 h3.new-contnet__title a {
     color: #fff;
     font-size: 1.7em;
     font-weight: 400;
 }
-p.welcome__new__summary{
+
+p.welcome__new__summary {
     color: #d3d3d3;
     font-weight: 500;
     margin: 12px 0;
 }
+
 .welcome__new__new-contnet {
     position: absolute;
     right: 0;
@@ -189,6 +234,7 @@ p.welcome__new__summary{
     padding: 1.1rem;
     z-index: 2;
 }
+
 .overlay {
     position: absolute;
     top: 0;
@@ -198,14 +244,16 @@ p.welcome__new__summary{
     overflow: hidden;
     white-space: nowrap;
     visibility: visible;
-    background-image: linear-gradient(transparent,rgba(0,0,0,0.8));
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
     z-index: 0;
     transition: all .3s;
 }
+
 a.overlay:hover {
     opacity: 0.6;
 }
-a.welcome__new__tag{
+
+a.welcome__new__tag {
     color: #d3d3d3;
     text-transform: uppercase;
     position: relative;
@@ -213,6 +261,7 @@ a.welcome__new__tag{
     padding-top: 10px;
     padding-left: 5px;
 }
+
 a.welcome__new__tag::before {
     content: " ";
     position: absolute;
@@ -223,6 +272,7 @@ a.welcome__new__tag::before {
     left: -5px;
     border-left: 3px solid #080;
 }
+
 .nav1 {
     display: flex;
     width: 100%;
@@ -230,12 +280,13 @@ a.welcome__new__tag::before {
     align-items: center;
     align-content: center;
     height: fit-content;
-    flex-wrap: wrap;
     background-color: black;
 }
+
 .nav1 li {
     list-style: none;
-    width: 100px;
+    width: 10%;
+    max-width: 100px;
     border-width: 1px;
     height: 35px;
     font-size: 13px;
@@ -254,37 +305,40 @@ a.welcome__new__tag::before {
 }
 
 .nav1 span:not(#sign) {
-    width: 102px;
+    width: 100%;
     height: 5px;
     background-color: transparent;
 }
 
-/* ===================  reel section ======================= */
-.reel-section{
-    background-image: linear-gradient(to  bottom, #000 , transparent), url(https://ychef.files.bbci.co.uk/1200x675/p08h02kk.jpg);
+.reel-section {
+    background-image: linear-gradient(to bottom, #000, transparent), url(https://ychef.files.bbci.co.uk/1200x675/p08h02kk.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 85vh;
     background-position: center;
     font-family: 'Roboto', sans-serif;
-    color:#fff;
+    color: #fff;
     padding: 2rem 1rem;
 }
+
 .reel-section__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 h2.reel-section__header__heading-primary {
     color: #fff;
     text-transform: uppercase;
     font-size: 3.2em;
     font-weight: 500;
 }
+
 h4.reel-section__header__summary {
     font-weight: 400;
     font-size: 1.1em;
 }
+
 a.btn {
     border: 1.5px solid;
     border-radius: 39px;
@@ -293,33 +347,41 @@ a.btn {
     font-weight: 400;
     cursor: pointer;
 }
-a.btn:hover{
-    background: rgba(0,0,0,.8);
+
+a.btn:hover {
+    background: rgba(0, 0, 0, .8);
 }
+
 .reel-section__news {
     display: flex;
     place-content: space-between;
     flex-wrap: wrap;
     padding: 1rem 0;
 }
-.reel-section__news__once__image{
+
+.reel-section__news__once__image {
     transition: all .3s;
 }
+
 .reel-section__news__once__image img {
     object-fit: cover;
     max-width: 100%;
     display: block;
 }
-.reel-section__news__once__image:hover{
-    filter:brightness(200%);
+
+.reel-section__news__once__image:hover {
+    filter: brightness(200%);
 }
+
 .reel-section__news__once {
     width: 32.5%;
 }
-.reel-section__news__once  a {
+
+.reel-section__news__once a {
     display: block;
     text-decoration: none;
 }
+
 h3.reel-section__news__once__title {
     background: #fff;
     color: #444444;
@@ -333,16 +395,21 @@ h3.reel-section__news__once__title {
     display: flex;
     align-items: center;
 }
+
+
 /* ====================== end reel section =============================  */
 
 .nav1 li:hover span:not(#sign) {
-    width: 102px;
+    width: 100%;
+    max-width: 102px;
     height: 5px;
     background-color: blue;
 }
 
+
 /* Styling news & sport section start */
-.news-sport-title{
+
+.news-sport-title {
     position: relative;
     width: 98%;
     margin: 40px auto 5px;
@@ -350,49 +417,67 @@ h3.reel-section__news__once__title {
     text-indent: 13px;
     font-size: 1.5rem;
 }
-h3:hover{
+
+h3:hover {
     color: black;
 }
-.news-section, .sport-section{
+
+.news-section,
+.sport-section {
     display: flex;
     width: 98%;
     margin: 0 auto;
 }
-.news-container, .sport-container{
+
+.news-container,
+.sport-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 33%;
     margin: 5px;
 }
-.news-img, .sport-img{
+
+.news-img,
+.sport-img {
     width: 100%;
 }
-.news-img:hover, .sport-img:hover{
+
+.news-img:hover,
+.sport-img:hover {
     opacity: 0.7;
 }
-.news-title, .sport-title{
+
+.news-title,
+.sport-title {
     width: 100%;
     color: #212121;
     margin: 10px 0;
 }
-.news-text, .sport-text{
+
+.news-text,
+.sport-text {
     width: 100%;
     color: #212121;
     font-size: 1rem;
     color: #4a4a4a;
 }
-.news-country, .sport-type{
+
+.news-country,
+.sport-type {
     font-size: .875rem;
     color: #767676;
     margin: 10px 0;
     position: relative;
     text-indent: 18px;
 }
-.news-country:hover, .sport-type:hover{
+
+.news-country:hover,
+.sport-type:hover {
     text-decoration: underline;
 }
-.red-line{
+
+.red-line {
     display: inline-block;
     position: absolute;
     left:5px;
@@ -401,23 +486,31 @@ h3:hover{
     height: .7em;
     background-color: red;
 }
-.yellow-line{
+
+.yellow-line {
     display: inline-block;
     position: absolute;
     left:5px;
     top: 2px;
     width: 2px;
     height: .7em;
-    background-color:yellow;
+    background-color: yellow;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
+
 /* Styling news & sport section end */
+
 .logo {
     width: 80px !important;
     padding: 0px 10px;
     justify-content: center !important;
+}
+
+.logo svg {
     fill: white;
 }
 
@@ -439,6 +532,7 @@ a{
 }
 
 .dropdown-items {
+    width: 100%;
     position: absolute;
     display: none;
 }
@@ -447,7 +541,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
+    width: 100%;
+    max-width: 100px;
     height: 35px !important;
     position: relative;
     top: 6px;
@@ -466,9 +561,14 @@ a{
 }
 
 .search {
-    width: 220px !important;
+    width: 20% !important;
+    min-width: 200px;
     flex-direction: row !important;
     justify-content: space-evenly !important;
+}
+
+.search svg {
+    fill: white;
 }
 
 .search input {
@@ -476,26 +576,24 @@ a{
     font-size: 20px;
     width: 170px;
     outline: none;
-    background-color: black;
-    color: white;
 }
 
-.search svg {
-    fill: white;
-}
 
 /* Styling weather section start */
-.weather-title-section{
+
+.weather-title-section {
     width: 98%;
     margin: 40px auto 15px;
     display: flex;
 }
-.weather-title{
+
+.weather-title {
     font-size: 1.25rem;
     color: #4a4a4a;
     margin-right: 24px;
 }
-.edit-weather-button{
+
+.edit-weather-button {
     padding: 5px;
     background: #f2f2f2;
     border: none;
@@ -503,32 +601,41 @@ a{
     color: #8c8c8c;
     cursor: pointer;
 }
-.weather-icons-section{
+
+.weather-icons-section {
     width: 98%;
     margin: 20px auto;
     display: flex;
 }
-.weather-container{
+
+.weather-container {
     width: 10%;
     display: flex;
     margin: 15px;
 }
-.weather-details p:first-child{
+
+.weather-details p:first-child {
     font-size: .7rem;
 }
-.weather-details p:nth-child(2){
+
+.weather-details p:nth-child(2) {
     font-size: .9rem;
     font-weight: bold;
 }
-.weather-details p:nth-child(3){
+
+.weather-details p:nth-child(3) {
     font-size: .6rem;
     color: #4a4a4a;
 }
-.weather-details p{
+
+.weather-details p {
     line-height: 13px;
     margin: 0 5px;
 }
+
+
 /* Styling weather section end */
+
 .dropbtn {
     border: none;
     outline: none;
@@ -541,9 +648,11 @@ a{
     left: 30px;
     color: white;
 }
+
 .dropdownli {
     font-weight: bold;
 }
+
 .down-arrow {
     border: solid white;
     border-width: 0 3px 3px 0;
@@ -618,3 +727,162 @@ a{
     }
 }
 
+.icon1 {
+    display: none;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 1260px) {
+    .nav1 {
+        flex-direction: column;
+    }
+    .nav1 li {
+        width: 100%;
+        max-width: none;
+    }
+    .dropdown-items {
+        width: 100px;
+    }
+    .logo svg {
+        margin-top: 10px;
+    }
+    .dropdown-items a {
+        top: 27px;
+    }
+    .dropbtn {
+        position: static;
+    }
+    .dropdown {
+        display: flex;
+        justify-content: center;
+    }
+    .nav1 li:not(.logo) {
+        display: none;
+    }
+    .icon1 {
+        display: block;
+    }
+    .search {
+        width: 100% !important;
+    }
+    .search input {
+        width: 90%;
+    }
+    .responsive li:not(.logo) {
+        display: flex;
+    }
+}
+
+.icon1-container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1-1,
+.bar2-1,
+.bar3-1 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change1 .bar1-1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change1 .bar2-1 {
+    opacity: 0;
+}
+
+.change1 .bar3-1 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.bottomNavigationBar {
+    background-color: #282828;
+    width: 80%;
+    height: 10rem;
+    margin-bottom: 0ch;
+    display: flex;
+    justify-content: center;
+}
+
+.bNBFC {
+    color: #ffffff;
+    margin: 1rem 0;
+    font-weight: 700;
+}
+
+.BottomNavBarList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 1rem;
+    color: white;
+    align-items: baseline;
+}
+
+.bottomNavAnchor {
+    display: flex;
+    align-items: center;
+}
+
+.bottomSvg {
+    font-size: 2rem;
+    color: white;
+    fill: white;
+    margin-right: 0.5rem;
+}
+
+.botNavBarMainDiv {
+    width: 80%;
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: white;
+    border-style: solid;
+    border-width: 0;
+    border-bottom-width: 0.05rem;
+    padding-bottom: 1rem;
+}
+
+.footer {
+    background-color: #282828;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.copyright {
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+    .welcome__container-news {
+        flex-direction: column;
+    }
+    .welcome__new {
+        width:100%;
+        margin-bottom: 1rem;
+    }
+    section.welcome {
+        font-size: 15px;
+    }
+    .welcome__new.new--other {
+        font-size: 7px;
+    }
+
+}
+@media screen and (max-width: 376px) {
+    section.welcome {
+        font-size: 10px;
+    }
+}
