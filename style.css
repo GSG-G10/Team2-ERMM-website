@@ -5,9 +5,9 @@
 }
 
 /* Styling news & sport section start */
-h3{
+.news-sport-title{
     position: relative;
-    width: 80%;
+    width: 98%;
     margin: 40px auto 5px;
     color: #4a4a4a;
     text-indent: 13px;
@@ -18,7 +18,7 @@ h3:hover{
 }
 .news-section, .sport-section{
     display: flex;
-    width: 80%;
+    width: 98%;
     margin: 0 auto;
 }
 .news-container, .sport-container{
