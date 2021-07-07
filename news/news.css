@@ -155,7 +155,7 @@ body {
     width: 130px;
 }
 
-.nav2-con {
+.nav2-container {
     width: 100%;
     display: flex;
     background-color: #B80000;
@@ -223,7 +223,7 @@ body {
     border-color: white;
 }
 
-.nav3-con {
+.nav3-container {
     width: 100%;
     display: flex;
     background-color: #ffffff;
