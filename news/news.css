@@ -1,14 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 
-body {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  min-height: 100vh;
-}
 .header {
   width: 100%;
   background-color: rgb(1, 36, 9);
@@ -42,12 +32,12 @@ body {
 .main-content-img {
   max-width: 100%;
 }
-.secondery-content-img {
+.secondary-content-img {
   max-width: 100%;
   margin-top: 1rem;
 }
 
-p {
+.paragraph{
   margin: 1rem;
 }
 
