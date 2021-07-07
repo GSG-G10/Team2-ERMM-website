@@ -1,3 +1,4 @@
+/* ===================  reel section ======================= */
 *{
     padding: 0;
     margin: 0;
@@ -137,6 +138,80 @@ a.welcome__new__tag::before {
     height: 5px;
     background-color: transparent;
 }
+.reel-section{
+    background-image: linear-gradient(to  bottom, #000 , transparent), url(https://ychef.files.bbci.co.uk/1200x675/p08h02kk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+    padding: 2rem 1rem;
+}
+.reel-section__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2.reel-section__header__heading-primary {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3.2em;
+    font-weight: 500;
+}
+h4.reel-section__header__summary {
+    font-weight: 400;
+    font-size: 1.1em;
+}
+a.btn {
+    border: 1.5px solid;
+    border-radius: 39px;
+    padding: .5rem 1em;
+    font-size: 1.2em;
+    font-weight: 400;
+    cursor: pointer;
+}
+a.btn:hover{
+    background: rgba(0,0,0,.8);
+}
+.reel-section__news {
+    display: flex;
+    place-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+.reel-section__news__once__image{
+    transition: all .3s;
+}
+.reel-section__news__once__image img {
+    object-fit: cover;
+    max-width: 100%;
+    display: block;
+}
+.reel-section__news__once__image:hover{
+    filter:brightness(200%);
+}
+.reel-section__news__once {
+    width: 32.5%;
+}
+.reel-section__news__once  a {
+    display: block;
+    text-decoration: none;
+}
+h3.reel-section__news__once__title {
+    background: #fff;
+    color: #444444;
+    margin: 0;
+    font-size: 1.2em;
+    line-height: 20px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-weight: 500;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+}
+/* ====================== end reel section =============================  */
 
 .nav1 li:hover span:not(#sign) {
     width: 102px;
