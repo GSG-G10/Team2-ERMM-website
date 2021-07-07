@@ -1,3 +1,4 @@
+/* reel section */
 *{
     padding: 0;
     box-sizing: border-box;
@@ -34,6 +35,7 @@ a.btn {
     padding: .5rem 1em;
     font-size: 1.2em;
     font-weight: 400;
+    cursor: pointer;
 }
 a.btn:hover{
     background: rgba(0,0,0,.8);
@@ -48,7 +50,6 @@ a.btn:hover{
     transition: all .3s;
 }
 .reel-section__news__once__image img {
-    max-width: 100%;
     object-fit: cover;
     max-width: 100%;
     display: block;
@@ -77,4 +78,5 @@ h3.reel-section__news__once__title {
     display: flex;
     align-items: center;
 }
+/* end reel section  */
 
