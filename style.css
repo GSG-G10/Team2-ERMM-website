@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* video section start */
+.video-title-section{
+    width: 98%;
+    margin: 20px auto 5px;
+    position: relative;
+}
+.video-title{
+    text-indent: 12px;
+    color: #4a4a4a;
+    font-size: 1.5rem;
+}
