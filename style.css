@@ -6,7 +6,7 @@
 
 /* Styling weather section start */
 .weather-title-section{
-    width: 80%;
+    width: 98%;
     margin: 40px auto 15px;
     display: flex;
 }
@@ -16,6 +16,7 @@
     margin-right: 24px;
 }
 .edit-weather-button{
+    padding: 5px;
     background: #f2f2f2;
     border: none;
     font-size: 10px;
@@ -23,32 +24,27 @@
     cursor: pointer;
 }
 .weather-icons-section{
-    width: 80%;
+    width: 98%;
     margin: 20px auto;
     display: flex;
 }
 .weather-container{
-    width: 15%;
+    width: 10%;
     display: flex;
 }
-.weather-icon{
-    margin-right: 15px;
-}
 .weather-details p:first-child{
-    font-size: .6rem;
+    font-size: .7rem;
 }
 .weather-details p:nth-child(2){
-    font-size: .8rem;
+    font-size: .9rem;
     font-weight: bold;
 }
 .weather-details p:nth-child(3){
-    font-size: .5rem;
+    font-size: .6rem;
     color: #4a4a4a;
 }
 .weather-details p{
-    line-height: 12px;
-}
-.fa-cloud, .fa-cloud-sun-rain, .fa-cloud-sun{
-    font-size: 25px;
+    line-height: 13px;
+    margin: 0 7px;
 }
 /* Styling weather section end */
