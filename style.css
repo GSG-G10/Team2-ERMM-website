@@ -144,6 +144,79 @@ a.welcome__new__tag::before {
     background-color: blue;
 }
 
+/* Styling news & sport section start */
+.news-sport-title{
+    position: relative;
+    width: 98%;
+    margin: 40px auto 5px;
+    color: #4a4a4a;
+    text-indent: 13px;
+    font-size: 1.5rem;
+}
+h3:hover{
+    color: black;
+}
+.news-section, .sport-section{
+    display: flex;
+    width: 98%;
+    margin: 0 auto;
+}
+.news-container, .sport-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33%;
+    margin: 5px;
+}
+.news-img, .sport-img{
+    width: 100%;
+}
+.news-img:hover, .sport-img:hover{
+    opacity: 0.7;
+}
+.news-title, .sport-title{
+    width: 100%;
+    color: #212121;
+    margin: 10px 0;
+}
+.news-text, .sport-text{
+    width: 100%;
+    color: #212121;
+    font-size: 1rem;
+    color: #4a4a4a;
+}
+.news-country, .sport-type{
+    font-size: .875rem;
+    color: #767676;
+    margin: 10px 0;
+    position: relative;
+    text-indent: 18px;
+}
+.news-country:hover, .sport-type:hover{
+    text-decoration: underline;
+}
+.red-line{
+    display: inline-block;
+    position: absolute;
+    left:5px;
+    top: 5px;
+    width: 2px;
+    height: .7em;
+    background-color: red;
+}
+.yellow-line{
+    display: inline-block;
+    position: absolute;
+    left:5px;
+    top: 5px;
+    width: 2px;
+    height: .7em;
+    background-color:yellow;
+}
+a{
+    text-decoration: none;
+}
+/* Styling news & sport section end */
 .logo {
     width: 80px !important;
     padding: 0px 10px;
