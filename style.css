@@ -1,18 +1,107 @@
-* {
+*{
     padding: 0;
-    box-sizing: border-box;
     margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
-
-* {
-    margin: 0px;
-    padding: 0px;
+/* =========== welcome section ==================== */
+a{
+    text-decoration: none;
 }
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
+section.welcome {
+    padding: 1.2rem;
 }
-
+h1.heading-primary {
+    color: #4a4a4a;
+    font-weight: bold;
+    padding-bottom: .8rem;
+}
+h1.heading-primary::after {
+    content: "Tuesday, 6 July";
+    position: absolute;
+    right: 35px;
+    font-weight: 400;
+    color: #8c8c8c;
+    font-size: .9em;
+}
+.welcome__container-news {
+    display: flex;
+    justify-content: space-between;
+}
+.welcome__new {
+    width: 49.3%;
+    position: relative;
+}
+.welcome__new.new--other__new {
+    width: 49%;
+    position: relative;
+    height: 49%;
+}
+.welcome__new__image img {
+    width: 100%;
+    object-fit: cover;
+    height: min-content;
+    display: block;
+}
+.welcome__new.new--other {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    font-size: 11px;
+    align-content: space-between;
+}
+h3.new-contnet__title a {
+    color: #fff;
+    font-size: 1.7em;
+    font-weight: 400;
+}
+p.welcome__new__summary{
+    color: #d3d3d3;
+    font-weight: 500;
+    margin: 12px 0;
+}
+.welcome__new__new-contnet {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 1.1rem;
+    z-index: 2;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    visibility: visible;
+    background-image: linear-gradient(transparent,rgba(0,0,0,0.8));
+    z-index: 0;
+    transition: all .3s;
+}
+a.overlay:hover {
+    opacity: 0.6;
+}
+a.welcome__new__tag{
+    color: #d3d3d3;
+    text-transform: uppercase;
+    position: relative;
+    display: block;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+a.welcome__new__tag::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    color: #080;
+    height: .99em;
+    top: 11px;
+    left: -5px;
+    border-left: 3px solid #080;
+}
 .nav1 {
     display: flex;
     width: 100%;
@@ -23,7 +112,6 @@ body {
     flex-wrap: wrap;
     background-color: black;
 }
-
 .nav1 li {
     list-style: none;
     width: 100px;
@@ -138,11 +226,9 @@ body {
     left: 30px;
     color: white;
 }
-
 .dropdownli {
     font-weight: bold;
 }
-
 .down-arrow {
     border: solid white;
     border-width: 0 3px 3px 0;
