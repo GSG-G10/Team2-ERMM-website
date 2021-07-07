@@ -511,6 +511,7 @@ a{
 .weather-container{
     width: 10%;
     display: flex;
+    margin: 15px;
 }
 .weather-details p:first-child{
     font-size: .7rem;
@@ -525,7 +526,7 @@ a{
 }
 .weather-details p{
     line-height: 13px;
-    margin: 0 7px;
+    margin: 0 5px;
 }
 /* Styling weather section end */
 .dropbtn {
@@ -553,6 +554,11 @@ a{
 
 
 /* news and sport, weather, video sections responsive start */
+@media (max-width: 768px){
+    .weather-container{
+        margin: 0 30px ;
+    }
+}
 @media (max-width: 425px){
     .news-img, .sport-img{
         display: none;
@@ -567,5 +573,20 @@ a{
     .news-section, .sport-section{
         display: flex;
         flex-direction: column;
+    }
+    .weather-container:last-child{
+        display: none;
+        margin: 20px;
+    }
+    .weather-container{
+        margin: 0 40px ;
+    }
+}
+@media (max-width: 375px){
+    .weather-container:nth-child(3){
+        display: none;
+    }
+    .weather-container{
+        margin: 0 40px ;
     }
 }
