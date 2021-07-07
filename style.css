@@ -1,4 +1,3 @@
-/* ===================  reel section ======================= */
 *{
     padding: 0;
     margin: 0;
@@ -259,6 +258,8 @@ a.welcome__new__tag::before {
     height: 5px;
     background-color: transparent;
 }
+
+/* ===================  reel section ======================= */
 .reel-section{
     background-image: linear-gradient(to  bottom, #000 , transparent), url(https://ychef.files.bbci.co.uk/1200x675/p08h02kk.jpg);
     background-repeat: no-repeat;
@@ -395,7 +396,7 @@ h3:hover{
     display: inline-block;
     position: absolute;
     left:5px;
-    top: 5px;
+    top: 2px;
     width: 2px;
     height: .7em;
     background-color: red;
@@ -404,7 +405,7 @@ h3:hover{
     display: inline-block;
     position: absolute;
     left:5px;
-    top: 5px;
+    top: 2px;
     width: 2px;
     height: .7em;
     background-color:yellow;
@@ -548,4 +549,23 @@ a{
     display: inline-block;
     padding: 3px;
     transform: rotate(45deg);
+}
+
+
+/* news and sport, weather, video sections responsive start */
+@media (max-width: 425px){
+    .news-img, .sport-img{
+        display: none;
+    }
+    .news-text, .sport-text{
+        display: none;
+    }
+    .news-container, .sport-container{
+        border-bottom: 1px solid rgb(172, 172, 172);
+        width: 100%;
+    }
+    .news-section, .sport-section{
+        display: flex;
+        flex-direction: column;
+    }
 }
