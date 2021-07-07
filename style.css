@@ -27,7 +27,6 @@ body {
 .nav1 li {
     list-style: none;
     width: 100px;
-    border: white solid;
     border-width: 1px;
     height: 35px;
     font-size: 13px;
