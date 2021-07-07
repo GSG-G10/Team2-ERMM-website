@@ -146,6 +146,8 @@ body {
 
 .icon1 {
     display: none;
+    margin-right: 10px;
+    margin-top: 5px;
 }
 
 .news-container {
@@ -300,6 +302,9 @@ body {
     .dropdown-items {
         width: 100px;
     }
+    .logo svg {
+        margin-top: 10px;
+    }
     .dropdown-items a {
         top: 27px;
     }
@@ -358,6 +363,8 @@ body {
 
 .icon2 {
     display: none;
+    margin-right: 10px;
+    margin-top: 5px;
 }
 
 .icon2-container {
@@ -370,7 +377,7 @@ body {
 .bar3-2 {
     width: 35px;
     height: 5px;
-    background-color: #333;
+    background-color: white;
     margin: 6px 0;
     transition: 0.4s;
 }
@@ -411,8 +418,13 @@ body {
         justify-content: center;
     }
     .nav2 li {
-        display: none;
         border-width: 0px;
+    }
+    .nav2 li:not(#nav2-home) {
+        display: none;
+    }
+    #nav2-home {
+        margin-top: 13px;
     }
     .icon2 {
         display: block;
@@ -423,7 +435,7 @@ body {
     .search input {
         width: 90%;
     }
-    .responsive li:not(.logo) {
-        display: flex;
+    .nav2.responsive li {
+        display: flex !important;
     }
 }

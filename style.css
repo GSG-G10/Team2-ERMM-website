@@ -160,6 +160,8 @@ body {
 
 .icon1 {
     display: none;
+    margin-right: 10px;
+    margin-top: 5px;
 }
 
 @media screen and (max-width: 1260px) {
@@ -172,6 +174,9 @@ body {
     }
     .dropdown-items {
         width: 100px;
+    }
+    .logo svg {
+        margin-top: 10px;
     }
     .dropdown-items a {
         top: 27px;
