@@ -42,7 +42,7 @@
 }
 
 .imgFigcaption {
-  margin-top: 0;
+  margin: 0 0 1rem 0 ;
   background-color: rgb(75, 75, 75);
   color: cornsilk;
   padding: 1rem;
