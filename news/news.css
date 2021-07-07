@@ -20,7 +20,6 @@ body {
 .nav1 li {
     list-style: none;
     width: 100px;
-    border: grey solid;
     border-width: 1px;
     height: 35px;
     font-size: 13px;
@@ -138,11 +137,11 @@ body {
     display: flex;
     width: 100%;
     height: fit-content;
-    padding: 20px;
+    padding: 20px 0px;
     background-color: #B80000;
     justify-content: center;
     border: solid white;
-    border-width: 0px 1px 1px 0px;
+    border-width: 0px 0px 1px 0px;
 }
 
 .news {
