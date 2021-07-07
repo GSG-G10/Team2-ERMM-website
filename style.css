@@ -1,7 +1,141 @@
 *{
     padding: 0;
-    box-sizing: border-box;
     margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* =========== welcome section ==================== */
+a{
+    text-decoration: none;
+}
+section.welcome {
+    padding: 1.2rem;
+}
+h1.heading-primary {
+    color: #4a4a4a;
+    font-weight: bold;
+    padding-bottom: .8rem;
+}
+h1.heading-primary::after {
+    content: "Tuesday, 6 July";
+    position: absolute;
+    right: 35px;
+    font-weight: 400;
+    color: #8c8c8c;
+    font-size: .9em;
+}
+.welcome__container-news {
+    display: flex;
+    justify-content: space-between;
+}
+.welcome__new {
+    width: 49.3%;
+    position: relative;
+}
+.welcome__new.new--other__new {
+    width: 49%;
+    position: relative;
+    height: 49%;
+}
+.welcome__new__image img {
+    width: 100%;
+    object-fit: cover;
+    height: min-content;
+    display: block;
+}
+.welcome__new.new--other {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    font-size: 11px;
+    align-content: space-between;
+}
+h3.new-contnet__title a {
+    color: #fff;
+    font-size: 1.7em;
+    font-weight: 400;
+}
+p.welcome__new__summary{
+    color: #d3d3d3;
+    font-weight: 500;
+    margin: 12px 0;
+}
+.welcome__new__new-contnet {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 1.1rem;
+    z-index: 2;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    visibility: visible;
+    background-image: linear-gradient(transparent,rgba(0,0,0,0.8));
+    z-index: 0;
+    transition: all .3s;
+}
+a.overlay:hover {
+    opacity: 0.6;
+}
+a.welcome__new__tag{
+    color: #d3d3d3;
+    text-transform: uppercase;
+    position: relative;
+    display: block;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+a.welcome__new__tag::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    color: #080;
+    height: .99em;
+    top: 11px;
+    left: -5px;
+    border-left: 3px solid #080;
+}
+.nav1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: fit-content;
+    flex-wrap: wrap;
+    background-color: black;
+}
+.nav1 li {
+    list-style: none;
+    width: 100px;
+    border-width: 1px;
+    height: 35px;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.nav1 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    height: 20px;
+}
+
+.nav1 span:not(#sign) {
+    width: 102px;
+    height: 5px;
+    background-color: transparent;
 }
 .reel-section{
     background-image: linear-gradient(to  bottom, #000 , transparent), url(https://ychef.files.bbci.co.uk/1200x675/p08h02kk.jpg);
@@ -78,3 +212,218 @@ h3.reel-section__news__once__title {
     align-items: center;
 }
 
+.nav1 li:hover span:not(#sign) {
+    width: 102px;
+    height: 5px;
+    background-color: blue;
+}
+
+/* Styling news & sport section start */
+.news-sport-title{
+    position: relative;
+    width: 98%;
+    margin: 40px auto 5px;
+    color: #4a4a4a;
+    text-indent: 13px;
+    font-size: 1.5rem;
+}
+h3:hover{
+    color: black;
+}
+.news-section, .sport-section{
+    display: flex;
+    width: 98%;
+    margin: 0 auto;
+}
+.news-container, .sport-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33%;
+    margin: 5px;
+}
+.news-img, .sport-img{
+    width: 100%;
+}
+.news-img:hover, .sport-img:hover{
+    opacity: 0.7;
+}
+.news-title, .sport-title{
+    width: 100%;
+    color: #212121;
+    margin: 10px 0;
+}
+.news-text, .sport-text{
+    width: 100%;
+    color: #212121;
+    font-size: 1rem;
+    color: #4a4a4a;
+}
+.news-country, .sport-type{
+    font-size: .875rem;
+    color: #767676;
+    margin: 10px 0;
+    position: relative;
+    text-indent: 18px;
+}
+.news-country:hover, .sport-type:hover{
+    text-decoration: underline;
+}
+.red-line{
+    display: inline-block;
+    position: absolute;
+    left:5px;
+    top: 5px;
+    width: 2px;
+    height: .7em;
+    background-color: red;
+}
+.yellow-line{
+    display: inline-block;
+    position: absolute;
+    left:5px;
+    top: 5px;
+    width: 2px;
+    height: .7em;
+    background-color:yellow;
+}
+a{
+    text-decoration: none;
+}
+/* Styling news & sport section end */
+.logo {
+    width: 80px !important;
+    padding: 0px 10px;
+    justify-content: center !important;
+    fill: white;
+}
+
+.sign-in {
+    flex-direction: row !important;
+    width: 120px !important;
+    justify-content: flex-start !important;
+    font-weight: bold;
+    color: white;
+}
+
+.sign-in svg {
+    width: 40px;
+    fill: white;
+}
+
+.dropdown {
+    width: 100%;
+}
+
+.dropdown-items {
+    position: absolute;
+    display: none;
+}
+
+.dropdown-items a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 35px !important;
+    position: relative;
+    top: 6px;
+    text-align: center;
+    background-color: black;
+    z-index: 1;
+}
+
+.dropdownli:hover .dropdown-items {
+    display: block;
+}
+
+.dropdown-items a:hover {
+    background-color: white;
+    color: black;
+}
+
+.search {
+    width: 220px !important;
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+}
+
+.search input {
+    border: 0px;
+    font-size: 20px;
+    width: 170px;
+    outline: none;
+    background-color: black;
+    color: white;
+}
+
+.search svg {
+    fill: white;
+}
+
+/* Styling weather section start */
+.weather-title-section{
+    width: 98%;
+    margin: 40px auto 15px;
+    display: flex;
+}
+.weather-title{
+    font-size: 1.25rem;
+    color: #4a4a4a;
+    margin-right: 24px;
+}
+.edit-weather-button{
+    padding: 5px;
+    background: #f2f2f2;
+    border: none;
+    font-size: 10px;
+    color: #8c8c8c;
+    cursor: pointer;
+}
+.weather-icons-section{
+    width: 98%;
+    margin: 20px auto;
+    display: flex;
+}
+.weather-container{
+    width: 10%;
+    display: flex;
+}
+.weather-details p:first-child{
+    font-size: .7rem;
+}
+.weather-details p:nth-child(2){
+    font-size: .9rem;
+    font-weight: bold;
+}
+.weather-details p:nth-child(3){
+    font-size: .6rem;
+    color: #4a4a4a;
+}
+.weather-details p{
+    line-height: 13px;
+    margin: 0 7px;
+}
+/* Styling weather section end */
+.dropbtn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    height: 22px;
+    font-size: 13px;
+    position: relative;
+    left: 30px;
+    color: white;
+}
+.dropdownli {
+    font-weight: bold;
+}
+.down-arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+}
