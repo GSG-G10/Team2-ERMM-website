@@ -287,6 +287,50 @@ a{
     fill: white;
 }
 
+/* Styling weather section start */
+.weather-title-section{
+    width: 98%;
+    margin: 40px auto 15px;
+    display: flex;
+}
+.weather-title{
+    font-size: 1.25rem;
+    color: #4a4a4a;
+    margin-right: 24px;
+}
+.edit-weather-button{
+    padding: 5px;
+    background: #f2f2f2;
+    border: none;
+    font-size: 10px;
+    color: #8c8c8c;
+    cursor: pointer;
+}
+.weather-icons-section{
+    width: 98%;
+    margin: 20px auto;
+    display: flex;
+}
+.weather-container{
+    width: 10%;
+    display: flex;
+}
+.weather-details p:first-child{
+    font-size: .7rem;
+}
+.weather-details p:nth-child(2){
+    font-size: .9rem;
+    font-weight: bold;
+}
+.weather-details p:nth-child(3){
+    font-size: .6rem;
+    color: #4a4a4a;
+}
+.weather-details p{
+    line-height: 13px;
+    margin: 0 7px;
+}
+/* Styling weather section end */
 .dropbtn {
     border: none;
     outline: none;
