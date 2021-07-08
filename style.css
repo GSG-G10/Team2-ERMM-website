@@ -1,11 +1,8 @@
-/* ===================  reel section ======================= */
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
 
 /* video section start */
 
@@ -145,8 +142,6 @@
     width: 2px;
     height: .7em;
 }
-
-
 /* video section end */
 
 .nav1-container {
@@ -159,7 +154,6 @@
 
 
 /* =========== welcome section ==================== */
-
 a {
     text-decoration: none;
 }
@@ -248,11 +242,9 @@ p.welcome__new__summary {
     z-index: 0;
     transition: all .3s;
 }
-
 a.overlay:hover {
     opacity: 0.6;
 }
-
 a.welcome__new__tag {
     color: #d3d3d3;
     text-transform: uppercase;
@@ -261,7 +253,6 @@ a.welcome__new__tag {
     padding-top: 10px;
     padding-left: 5px;
 }
-
 a.welcome__new__tag::before {
     content: " ";
     position: absolute;
@@ -272,7 +263,6 @@ a.welcome__new__tag::before {
     left: -5px;
     border-left: 3px solid #080;
 }
-
 .nav1 {
     display: flex;
     width: 100%;
@@ -282,7 +272,6 @@ a.welcome__new__tag::before {
     height: fit-content;
     background-color: black;
 }
-
 .nav1 li {
     list-style: none;
     width: 10%;
@@ -296,20 +285,17 @@ a.welcome__new__tag::before {
     cursor: pointer;
     flex-direction: column;
 }
-
 .nav1 a {
     text-decoration: none;
     color: white;
     font-weight: bold;
     height: 20px;
 }
-
 .nav1 span:not(#sign) {
     width: 100%;
     height: 5px;
     background-color: transparent;
 }
-
 .reel-section {
     background-image: linear-gradient(to bottom, #000, transparent), url(https://ychef.files.bbci.co.uk/1200x675/p08h02kk.jpg);
     background-repeat: no-repeat;
@@ -320,25 +306,21 @@ a.welcome__new__tag::before {
     color: #fff;
     padding: 2rem 1rem;
 }
-
 .reel-section__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 h2.reel-section__header__heading-primary {
     color: #fff;
     text-transform: uppercase;
     font-size: 3.2em;
     font-weight: 500;
 }
-
 h4.reel-section__header__summary {
     font-weight: 400;
     font-size: 1.1em;
 }
-
 a.btn {
     border: 1.5px solid;
     border-radius: 39px;
@@ -347,41 +329,33 @@ a.btn {
     font-weight: 400;
     cursor: pointer;
 }
-
 a.btn:hover {
     background: rgba(0, 0, 0, .8);
 }
-
 .reel-section__news {
     display: flex;
     place-content: space-between;
     flex-wrap: wrap;
     padding: 1rem 0;
 }
-
 .reel-section__news__once__image {
     transition: all .3s;
 }
-
 .reel-section__news__once__image img {
     object-fit: cover;
     max-width: 100%;
     display: block;
 }
-
 .reel-section__news__once__image:hover {
     filter: brightness(200%);
 }
-
 .reel-section__news__once {
     width: 32.5%;
 }
-
 .reel-section__news__once a {
     display: block;
     text-decoration: none;
 }
-
 h3.reel-section__news__once__title {
     background: #fff;
     color: #444444;
@@ -395,7 +369,6 @@ h3.reel-section__news__once__title {
     display: flex;
     align-items: center;
 }
-
 
 /* ====================== end reel section =============================  */
 
