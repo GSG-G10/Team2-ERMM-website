@@ -195,16 +195,16 @@ body {
     background-color: blue;
 }
 
-.logo {
-    width: 80px !important;
+.logo#logo-bbc {
+    width: 80px ;
     padding: 0px 10px;
-    justify-content: center !important;
+    justify-content: center ;
 }
 
-.sign-in {
-    flex-direction: row !important;
-    width: 120px !important;
-    justify-content: flex-start !important;
+.sign-in#sign-in {
+    flex-direction: row ;
+    width: 120px;
+    justify-content: flex-start ;
     font-weight: bold;
 }
 
@@ -222,13 +222,13 @@ body {
     display: none;
 }
 
-.dropdown-items a {
+.dropdown-items#nav-dropdown-items a {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     max-width: 100px;
-    height: 35px !important;
+    height: 35px ;
     position: relative;
     top: 6px;
     text-align: center;
@@ -244,11 +244,11 @@ body {
     background-color: rgb(197, 197, 197);
 }
 
-.search {
-    width: 20% !important;
+.search#search {
+    width: 100% ;
     min-width: 200px;
-    flex-direction: row !important;
-    justify-content: space-evenly !important;
+    flex-direction: row ;
+    justify-content: space-evenly ;
 }
 
 .search input {
@@ -569,8 +569,8 @@ body {
     .icon1 {
         display: block;
     }
-    .search {
-        width: 100% !important;
+    .search#search {
+        width: 100% ;
     }
     .search input {
         width: 90%;
@@ -676,9 +676,6 @@ body {
     }
     .icon2 {
         display: block;
-    }
-    .search {
-        width: 100% !important;
     }
     .search input {
         width: 90%;
