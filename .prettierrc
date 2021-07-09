@@ -1,11 +1,4 @@
 {
   "tabWidth": 2,
-  "semi": false,
-  "editor.formatOnSave": false,
-  "[javascript]": {
-    "editor.formatOnSave": true
-  },
-  "[html]": {
-    "editor.formatOnSave": true
-  }
+  "useTabs": false
 }
